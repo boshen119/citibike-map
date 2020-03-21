@@ -1,0 +1,36 @@
+html,
+body,
+#map-id {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0,0.2);
+}
+
+.legend .low{
+  color: #ec8a2e;
+}
+
+.legend .empty{
+  color: #a053a0
+}
+
+.legend .coming-soon{
+  color: #f4ba48;
+}
+
+.legend .healthy{
+  color: #1b941b;
+}
+.legend .out-of-order{
+  color: #000077;
+}
